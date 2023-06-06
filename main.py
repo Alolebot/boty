@@ -15,7 +15,7 @@ import json,redis
 from telebot import types
 from telebot.types import InlineKeyboardMarkup as mark
 from telebot.types import InlineKeyboardButton as btn
-bot = telebot.TeleBot("توكن",num_threads=20)
+bot = telebot.TeleBot("6031420561:AAHT_H0TpZpvTPt3Ucb-6bg76QeLGt9zru8",num_threads=20)
 r = redis.Redis(host="localhost",port=6379)
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -25,7 +25,7 @@ def start(message):
     btn2 = btn(text="- بدو الصيد",callback_data="start")
     btn3 = btn(text="- سحب يوزرات .",callback_data="swap")
     btn5 = btn(text="- تنظيف ليست يوزرات .",callback_data="clean")
-    btn4 = btn(text="- Dev .",url="https://t.me/N_P_X")
+    btn4 = btn(text="- الـمطـور .",url="https://t.me/q5_u8")
     key.add(btn1,btn2)
     key.add(btn3)
     key.add(btn4)
