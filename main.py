@@ -1,7 +1,7 @@
 import telebot,requests
 from telebot import types
 import random
-bot = telebot.TeleBot('توكن')
+bot = telebot.TeleBot('6031420561:AAHT_H0TpZpvTPt3Ucb-6bg76QeLGt9zru8')
 @bot.message_handler(commands=['start'])
 def start(message):
     buttons = types.InlineKeyboardMarkup(row_width=1)
